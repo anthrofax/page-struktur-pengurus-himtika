@@ -111,14 +111,14 @@ export const dataAnggotaDepartemen = new Map([
     "Media Kreatif",
     {
       urlGambar: [adam, ayu, chandra, kapka, wahyu],
-      jumlahAnggota: 2,
+      jumlahAnggota: 5,
     },
   ],
   [
     "Media Informasi",
     {
       urlGambar: [jojo, marsya, puja],
-      jumlahAnggota: 2,
+      jumlahAnggota: 3,
     },
   ],
 ]);

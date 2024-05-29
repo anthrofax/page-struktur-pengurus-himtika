@@ -34,7 +34,7 @@ function DepartmentModal() {
   return (
     <div
       role="detail-modal"
-      className="fixed top-1/2 left-1/2 w-3/4 h-fit bg-white z-50 -translate-x-1/2 -translate-y-1/2 rounded-xl shadow-2xl text-black flex flex-col items-center text-center max-w-72 pb-2 "
+      className="fixed top-1/2 left-1/2 w-3/4 h-fit bg-white z-50 -translate-x-1/2 -translate-y-1/2 rounded-xl shadow-2xl text-black flex flex-col items-center text-center max-w-96 pb-2 border-tertiary hover:border-4 transition-all"
     >
       <IoMdCloseCircle
         className="absolute z-50 w-10 -left-5 -top-5 cursor-pointer"
@@ -44,12 +44,12 @@ function DepartmentModal() {
       />
 
       <IoIosArrowDropleftCircle
-        className="absolute z-50 left-0 top-1/2 -translate-y-1/2 cursor-pointer opacity-50"
+        className="absolute z-50 left-0 top-1/2 -translate-y-1/2 cursor-pointer opacity-50 hover:opacity-100 transition-all hover:scale-105"
         size={50}
         onClick={handleClickLeft}
       />
       <IoIosArrowDroprightCircle
-        className="absolute z-50 right-0 top-1/2 -translate-y-1/2 cursor-pointer opacity-50"
+        className="absolute z-50 right-0 top-1/2 -translate-y-1/2 cursor-pointer opacity-50 hover:opacity-100 transition-all hover:scale-105"
         size={50}
         onClick={handleClickRight}
       />

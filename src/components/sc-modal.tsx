@@ -13,7 +13,7 @@ function SCModal() {
   return (
     <div
       role="detail-modal"
-      className="fixed top-1/2 left-1/2 w-3/4 h-fit bg-white z-50 -translate-x-1/2 -translate-y-1/2 rounded-xl shadow-2xl text-black flex flex-col items-center text-center max-w-72 pb-2"
+      className="fixed top-1/2 left-1/2 w-3/4 h-fit bg-white z-50 -translate-x-1/2 -translate-y-1/2 rounded-xl shadow-2xl text-black flex flex-col items-center text-center max-w-96 pb-2"
     >
       <IoMdCloseCircle
         className="absolute z-50 w-10 -left-5 -top-5 cursor-pointer"

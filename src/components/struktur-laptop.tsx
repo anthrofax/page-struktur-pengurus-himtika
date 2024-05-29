@@ -4,7 +4,7 @@ import empty from "/empty.jpeg";
 
 function StrukturLaptopView() {
   return (
-    <ul className="hidden lg:flex bg-white2 w-[90%] container mx-auto mt-10 rounded-3xl relative py-24 px-3 flex-col items-center gap-16">
+    <ul className="hidden lg:flex bg-white w-[90%] container mx-auto mt-10 rounded-3xl relative py-24 px-3 flex-col items-center gap-16">
       <MemberCard cardId="aldo">
         <div className="w-1.5 h-20 bg-black absolute top-full left-1/2 "></div>
       </MemberCard>

@@ -27,7 +27,7 @@ function StrukturForMobileTabletView() {
         <ul className="  w-[90%] flex flex-col items-start gap-5 ">
           <li className="w-full container mx-auto  h-20  bg-primary rounded-xl flex items-center justify-center text-2xl relative">
             <div className="w-[6vw] max-w-[2.1rem] h-1 bg-black rounded-full md:rounded-sm absolute right-[100%]"></div>
-            <div className="w-1 max-[370px]:max-h-[23rem] h-[628%] min-[370px]:h-[98vw] min-[370px]:max-h-[31.5rem] bg-black rounded-full md:rounded-sm absolute right-[103%] top-1/2"></div>
+            <div className="w-1 h-[110vw] min-[370px]:h-[105vw] min-[370px]:max-h-[32rem] bg-black rounded-full md:rounded-sm absolute right-[103%] top-1/2"></div>
             BPH
           </li>
 
