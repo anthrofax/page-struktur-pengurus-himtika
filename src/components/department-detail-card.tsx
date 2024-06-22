@@ -18,7 +18,7 @@ function DepartmentDetailCard({
         role="department-image"
         className={`h-fit relative overflow-hidden rounded-t-xl   `}
       >
-        <img src={imageUrl} alt="" className="absolute scale-[2] top-[10px]" />
+        <img src={imageUrl} alt="" className="absolute" />
         <img src={imageUrl} alt="" className="invisible scale-[2] " />
       </div>
 

@@ -1,6 +1,20 @@
 import DepartmentDetailCard from "./department-detail-card";
 import MemberCard from "./member-card";
-import empty from "/empty.jpeg";
+import crown from "/crown.png";
+import vice from "/vice.png";
+import member from "/member.png";
+
+// Gambar Departemen
+import humanResourceDevelopment from "/departmen/human-resource-development.png";
+import himtikaCare from "/departmen/himtika-care.png";
+import publicMarketing from "/departmen/public-marketing.png";
+import publicRelation from "/departmen/public-relation.png";
+import productDevelopment from "/departmen/product-development.png";
+import researchDevelopment from "/departmen/research-development.png";
+import skillEducation from "/departmen/skill-education.png";
+import collegeEducation from "/departmen/college-education.png";
+import mediaCreative from "/departmen/media-creative.png";
+import mediaInformation from "/departmen/media-information.png";
 
 function StrukturLaptopView() {
   return (
@@ -8,6 +22,12 @@ function StrukturLaptopView() {
       <MemberCard cardId="aldo">
         <div className="w-1.5 h-20 bg-black absolute top-full left-1/2 "></div>
       </MemberCard>
+
+      <img
+        src={crown}
+        alt="kahim"
+        className="absolute opacity-50 -rotate-12 right-16 w-[30%]"
+      />
 
       <MemberCard cardId="bunga">
         <div className="w-1.5 h-[40%] bg-black absolute top-[390%] -left-[142%] "></div>
@@ -25,6 +45,12 @@ function StrukturLaptopView() {
         <div className="w-[385.5%] h-1.5 bg-black absolute top-[390%] -left-[141.5%] "></div>
       </MemberCard>
 
+      <img
+        src={vice}
+        alt="kahim"
+        className="absolute opacity-30 rotate-12 left-10 w-[30%] top-[21%]"
+      />
+
       <li className="w-full mt-24">
         <ul className="flex justify-center gap-[50%]">
           <MemberCard cardId="gina" />
@@ -32,6 +58,12 @@ function StrukturLaptopView() {
           <MemberCard cardId="fitri" />
         </ul>
       </li>
+
+      <img
+        src={member}
+        alt="kahim"
+        className="absolute opacity-30 right-1/2 translate-x-1/2 w-[30%] top-[45%]"
+      />
 
       <li className="w-full">
         <ul className="flex justify-center gap-[50%]">
@@ -47,34 +79,40 @@ function StrukturLaptopView() {
           <MemberCard cardId="zaki" className="lg:w-full" />
 
           <DepartmentDetailCard
-            imageUrl={empty}
+            imageUrl={humanResourceDevelopment}
             departemen="Human Resource Development"
           />
-          <DepartmentDetailCard imageUrl={empty} departemen="Himtika Care" />
+          <DepartmentDetailCard
+            imageUrl={himtikaCare}
+            departemen="Himtika Care"
+          />
         </ul>
 
         <ul className="flex flex-col w-[15%] items-center gap-16">
           <MemberCard cardId="ojan" className="lg:w-full" />
 
           <DepartmentDetailCard
-            imageUrl={empty}
+            imageUrl={publicMarketing}
             departemen="Public & Marketing"
           />
-          <DepartmentDetailCard imageUrl={empty} departemen="Public Relation" />
+          <DepartmentDetailCard
+            imageUrl={publicRelation}
+            departemen="Public Relation"
+          />
         </ul>
 
         <ul className="flex flex-col w-[15%] items-center gap-16">
           <MemberCard cardId="nadin" className="lg:w-full">
             <div className="w-1.5 h-[20%] bg-black rounded-full md:rounded-sm absolute bottom-full left-1/2 " />
-            <div className="hidden lg:block w-1.5 h-[100%] bg-black rounded-full md:rounded-sm absolute top-full left-1/2" />
+            <div className="hidden lg:block w-1.5 h-[120%] bg-black rounded-full md:rounded-sm absolute top-full left-1/2" />
           </MemberCard>
 
           <DepartmentDetailCard
-            imageUrl={empty}
+            imageUrl={productDevelopment}
             departemen="Product Development"
           />
           <DepartmentDetailCard
-            imageUrl={empty}
+            imageUrl={researchDevelopment}
             departemen="Research Development"
           />
         </ul>
@@ -82,9 +120,12 @@ function StrukturLaptopView() {
         <ul className="flex flex-col w-[15%] items-center gap-16">
           <MemberCard cardId="bintang" className="lg:w-full" />
 
-          <DepartmentDetailCard imageUrl={empty} departemen="Skill Education" />
           <DepartmentDetailCard
-            imageUrl={empty}
+            imageUrl={skillEducation}
+            departemen="Skill Education"
+          />
+          <DepartmentDetailCard
+            imageUrl={collegeEducation}
             departemen="College Education"
           />
         </ul>
@@ -92,8 +133,14 @@ function StrukturLaptopView() {
         <ul className="flex flex-col w-[15%] items-center gap-16">
           <MemberCard cardId="catur" className="lg:w-full" />
 
-          <DepartmentDetailCard imageUrl={empty} departemen="Media Kreatif" />
-          <DepartmentDetailCard imageUrl={empty} departemen="Media Informasi" />
+          <DepartmentDetailCard
+            imageUrl={mediaCreative}
+            departemen="Media Kreatif"
+          />
+          <DepartmentDetailCard
+            imageUrl={mediaInformation}
+            departemen="Media Informasi"
+          />
         </ul>
       </li>
     </ul>

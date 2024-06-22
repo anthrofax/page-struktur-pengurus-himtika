@@ -83,7 +83,7 @@ function MemberCard({
 
         {currentMember?.jabatan.toLowerCase().includes("divisi") &&
         !currentMember?.jabatan.toLowerCase().includes("rnd") ? (
-          <div className="hidden lg:block w-1.5 h-[100%] bg-black rounded-full md:rounded-sm absolute top-full left-1/2" />
+          <div className="hidden lg:block w-1.5 h-[120%] bg-black rounded-full md:rounded-sm absolute top-full left-1/2" />
         ) : null}
 
         {/* Top Line */}
