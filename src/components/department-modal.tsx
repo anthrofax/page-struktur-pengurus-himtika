@@ -72,7 +72,7 @@ function DepartmentModal() {
         <span className="w-[15%] h-1 bg-black"></span>
         <a
           className="rounded-full w-[30%] md:w-[20%] aspect-square bg-secondary flex justify-center items-center hover:-translate-y-1 transition-all"
-          href="www.instagram.com"
+          href={`https://www.instagram.com/${currentDepartment.instagram[departmentModalIndex]}`}
         >
           <FaInstagram size="70%" className="text-white " />
         </a>

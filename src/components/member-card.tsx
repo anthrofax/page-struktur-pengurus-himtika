@@ -53,7 +53,7 @@ function MemberCard({
         <div className="w-[80%] flex justify-center  mx-auto mt-2">
           <a
             className="rounded-full w-[30%] md:w-[20%] aspect-square bg-tertiary flex justify-center items-center transition-all group hover:bg-black"
-            href="www.instagram.com"
+            href={`https://www.instagram.com/${currentMember.instagram}/`}
           >
             <FaInstagram
               size="70%"
@@ -120,7 +120,7 @@ function MemberCard({
         <div className="w-[80%] flex justify-center  mx-auto mt-1 md:mt-3">
           <a
             className="rounded-full w-[30%] md:w-[20%] aspect-square bg-tertiary group hover:bg-black flex justify-center items-center hover:-translate-y-1 transition-all"
-            href="www.instagram.com"
+            href={`https://www.instagram.com/${currentMember.instagram}/`}
           >
             <FaInstagram
               size="70%"
@@ -168,7 +168,7 @@ function MemberCard({
         <div className="w-[80%] flex justify-center  mx-auto mt-1 ">
           <a
             className="rounded-full w-[30%] md:w-[20%] aspect-square bg-tertiary group hover:bg-black flex justify-center items-center hover:-translate-y-1 transition-all"
-            href="www.instagram.com"
+            href={`https://www.instagram.com/${currentMember.instagram}/`}
           >
             <FaInstagram
               size="70%"

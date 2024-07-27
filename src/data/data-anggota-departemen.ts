@@ -17,7 +17,7 @@ import devi from "/internal/devi-internal.png";
 import dira from "/internal/dira-internal.png";
 import fitri from "/internal/fitri-internal.png";
 import iqbal from "/internal/iqbal-internal.png";
-import naufal from "/internal/cindy-internal.png";
+import naufal from "/internal/naufal-internal.png";
 import wanda from "/internal/wanda-internal.png";
 
 // Relasi
@@ -55,6 +55,7 @@ export const dataAnggotaDepartemen = new Map([
     "Human Resource Development",
     {
       urlGambar: [dede, devi, dira, iqbal, naufal],
+      instagram: ["cynpards_", "deviragstn", "indiragrn", "kadafiiisme_", "naufalraap",],
       jumlahAnggota: 5,
     },
   ],
@@ -62,6 +63,7 @@ export const dataAnggotaDepartemen = new Map([
     "Himtika Care",
     {
       urlGambar: [fitri, burhan, cindy, wanda],
+      instagram: ["ftrakm", "abdlburhan_", "cindyptrri_", "wandajyh"],
       jumlahAnggota: 4,
     },
   ],
@@ -69,6 +71,7 @@ export const dataAnggotaDepartemen = new Map([
     "Public & Marketing",
     {
       urlGambar: [haliza, marsha, putra, iky],
+      instagram: ["halizadz", "marsviena", "p.15.08.2005", "_awllyh",],
       jumlahAnggota: 4,
     },
   ],
@@ -76,6 +79,7 @@ export const dataAnggotaDepartemen = new Map([
     "Public Relation",
     {
       urlGambar: [refa, bergas, fajar, inka],
+      instagram: ["rffaprta", "bergasazzaaaa", "fajzar.a", "inkaurl"],
       jumlahAnggota: 4,
     },
   ],
@@ -83,6 +87,7 @@ export const dataAnggotaDepartemen = new Map([
     "Product Development",
     {
       urlGambar: [edo, nate, openg, rizki],
+      instagram: ["ai24.___", "natedrkn", "naufalsafiqq", "seepptiiii"],
       jumlahAnggota: 4,
     },
   ],
@@ -90,6 +95,7 @@ export const dataAnggotaDepartemen = new Map([
     "Research Development",
     {
       urlGambar: [deas, abdur, delia, caca],
+      instagram: ["justdaz._", "abdurrokhman02", "moebius09_", "salsaanderia_",],
       jumlahAnggota: 4,
     },
   ],
@@ -97,6 +103,7 @@ export const dataAnggotaDepartemen = new Map([
     "Skill Education",
     {
       urlGambar: [mishel, zul, dara, eva, shifa],
+      instagram: ["mish.elll", "madnaen", "arafllya_", "vallery4u", "shatuz_",],
       jumlahAnggota: 5,
     },
   ],
@@ -104,6 +111,7 @@ export const dataAnggotaDepartemen = new Map([
     "College Education",
     {
       urlGambar: [haru, desman, dini, merlin],
+      instagram: ["hatsuharu0604", "desmansaputra", "abcdinni10_", "meryliv",],
       jumlahAnggota: 4,
     },
   ],
@@ -111,6 +119,7 @@ export const dataAnggotaDepartemen = new Map([
     "Media Kreatif",
     {
       urlGambar: [adam, ayu, chandra, kapka, wahyu],
+      instagram: ["aaazhariiiii", "ayunisa_14", "chandravv_", "kappka_", "whyww28",],
       jumlahAnggota: 5,
     },
   ],
@@ -118,6 +127,7 @@ export const dataAnggotaDepartemen = new Map([
     "Media Informasi",
     {
       urlGambar: [jojo, marsya, puja],
+      instagram: ["jvnythswr", "marsyachan", "hidaynthipuja_",],
       jumlahAnggota: 3,
     },
   ],

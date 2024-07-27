@@ -1,3 +1,4 @@
+
 import { IoMdCloseCircle } from "react-icons/io";
 import { FaInstagram } from "react-icons/fa";
 import { dataSCBPH } from "../data/data-sc-bph";
@@ -40,7 +41,7 @@ function SCModal() {
         <span className="w-[15%] h-1 bg-black"></span>
         <a
           className="rounded-full w-[25%] md:w-[20%] aspect-square bg-secondary flex justify-center items-center hover:-translate-y-1 transition-all"
-          href="www.instagram.com"
+          href={`https://www.instagram.com/${currentMember.instagram}`}
         >
           <FaInstagram size="70%" className="text-white " />
         </a>

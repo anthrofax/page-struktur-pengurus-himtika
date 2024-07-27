@@ -16,6 +16,7 @@ export const dataSCBPH = new Map([
     {
       nama: "M. Reynaldo A. R.",
       jabatan: "Ketua Umum",
+      instagram: "mreynaldo24",
       urlGambar: aldo,
       cardType: "level-1",
     },
@@ -25,6 +26,7 @@ export const dataSCBPH = new Map([
     {
       nama: "Bunga K. U.",
       jabatan: "Wakil Ketua Umum",
+      instagram: "flwrhere",
       urlGambar: bunga,
       cardType: "level-1",
     },
@@ -34,6 +36,7 @@ export const dataSCBPH = new Map([
     {
       nama: "Ridhaka Gina A.",
       jabatan: "Sekretaris Umum",
+      instagram: "rdkaina",
       urlGambar: gina,
       cardType: "level-2",
     },
@@ -43,6 +46,7 @@ export const dataSCBPH = new Map([
     {
       nama: "Erizka N. R.",
       jabatan: "Wakil Sekretaris Umum",
+      instagram: "cozyzka_",
       urlGambar: erizka,
       cardType: "level-3",
     },
@@ -50,8 +54,9 @@ export const dataSCBPH = new Map([
   [
     "fitri",
     {
-      nama: "Fitria Noviyanti Taufik",
+      nama: "Fitria Novyanti Taufik",
       jabatan: "Bendahara Umum",
+      instagram: "fitrinyc",
       urlGambar: novi,
       cardType: "level-2",
     },
@@ -61,6 +66,7 @@ export const dataSCBPH = new Map([
     {
       nama: "Rizka Nadilla",
       jabatan: "Wakil Bendahara Umum",
+      instagram: "rizkndla",
       urlGambar: rizka,
       cardType: "level-3",
     },
@@ -70,6 +76,7 @@ export const dataSCBPH = new Map([
     {
       nama: "Julianda Zaki P.",
       jabatan: "Ketua Divisi Internal",
+      instagram: "liandaz_",
       urlGambar: zaki,
       cardType: "level-2",
     },
@@ -79,6 +86,7 @@ export const dataSCBPH = new Map([
     {
       nama: "Magrozan Q. Z.",
       jabatan: "Ketua Divisi Relasi",
+      instagram: "mgrznd",
       urlGambar: ojan,
       cardType: "level-2",
     },
@@ -86,8 +94,9 @@ export const dataSCBPH = new Map([
   [
     "nadin",
     {
-      nama: "Nanindra M. A.",
+      nama: "Nadindra M. A.",
       jabatan: "Ketua Divisi RnD",
+      instagram: "itsnadin_ra",
       urlGambar: nadin,
       cardType: "level-2",
     },
@@ -97,6 +106,7 @@ export const dataSCBPH = new Map([
     {
       nama: "Bintang Danuarta",
       jabatan: "Ketua Divisi Edukasi",
+      instagram: "bintanggg277",
       urlGambar: bintang,
       cardType: "level-2",
     },
@@ -104,11 +114,11 @@ export const dataSCBPH = new Map([
   [
     "catur",
     {
-      nama: "Rafi Catur C. W.",
+      nama: "M. Rafi Catur W",
       jabatan: "Ketua Divisi Infokom",
+      instagram: "mraficw",
       urlGambar: catur,
       cardType: "level-2",
     },
   ],
 ]);
-

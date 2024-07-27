@@ -48,7 +48,7 @@ function StrukturLaptopView() {
       <img
         src={vice}
         alt="kahim"
-        className="absolute opacity-30 rotate-12 left-10 w-[30%] top-[21%]"
+        className="absolute opacity-30 rotate-12 left-24 w-[30%] top-[18%]"
       />
 
       <li className="w-full mt-24">
